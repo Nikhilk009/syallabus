@@ -1,0 +1,26 @@
+class ArrayClass{
+public static void main(String []args) {
+        int a[]={22,3,45,12,34,676,5,6};
+        print(a);
+        Arrays.sort(a);
+        print(a);
+        int k= Arrays .binarySearch(a,12);
+        System.out.println("Arrays binary search index="+k);
+        System.out.println( "a["+k+"]="+a[k]);
+        int z= Arrays.binarySearch(a,45);
+        System.out.println( "index of search "+z);
+        System.out.println("a["+k+"]="+a[z]);
+        int b []=new int [5];
+        Arrays.fill(b,44);
+        System.out.println("given array compare =" +Arrays.equals(a,b));
+
+
+
+    }
+    public static  void print (int []a){
+        for (int i=0;i<a.length;i++){
+            System.out.print(a[i]+" ");
+        }
+        System.out.println();
+    }
+ } 
