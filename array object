@@ -1,0 +1,20 @@
+# syallabus
+public class Practice {
+    public static void main(String []args) {
+       Object []a=new Object[6];//using object as a data type then store any value or data type
+       a[0]=new java.util.Date();//using this keyboard  for latest time date and year
+       a[1]="ABCDE";
+       a[2]=new int []{22,33,44,55};
+       a[3]=new java.util.Random();
+       a[4]=7778;
+       a[5]='a';
+       print(a);
+
+
+    }
+    public static void print(Object []a ){
+        for(int i=0;i<a.length;i++){
+            System.out.println(i+"."+a[i]);
+        }
+    }
+}
